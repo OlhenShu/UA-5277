@@ -1,6 +1,6 @@
 package com.softserve.academy.homework.class3.task3;
 
-import java.time.LocalDateTime;
+
 import java.util.Scanner;
 
 public class Person {
