@@ -35,10 +35,10 @@ public class FirstClassExample {
 
         int a = 15;
         int b = 2;
-        int c =  a / b;
-        System.out.println((double)c);
-        System.out.println(15/2);
-        System.out.println("div of a \\ b is: " +  a + b);
+        int c = a / b;
+        System.out.println((double) c);
+        System.out.println(15 / 2);
+        System.out.println("div of a \\ b is: " + a + b);
     }
 }
 

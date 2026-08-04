@@ -1,4 +1,4 @@
-package com.softserve.academy.homework;
+package com.softserve.academy.homework.maksym.L1;
 
 public class ClothingStoreReceipt {
     public static void main(String[] args) {
