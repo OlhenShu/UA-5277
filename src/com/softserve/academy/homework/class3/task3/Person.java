@@ -7,7 +7,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private int birthYear;
-
+    Scanner input = new Scanner(System.in);
     public Person() {
     }
 
@@ -46,7 +46,7 @@ public class Person {
     }
 
     public void input() {
-        Scanner input = new Scanner(System.in);
+
         System.out.print("First Name: ");
         this.firstName = input.nextLine();
         System.out.print("Last Name: ");

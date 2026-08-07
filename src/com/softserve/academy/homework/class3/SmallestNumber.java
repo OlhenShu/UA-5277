@@ -2,7 +2,7 @@ package com.softserve.academy.homework.class3;
 
 import java.util.Scanner;
 
-public class smallestNumber {
+public class SmallestNumber {
     public static void main(String[] args) {
         int num1, num2, num3;
         Scanner scanner = new Scanner(System.in);
@@ -21,5 +21,6 @@ public class smallestNumber {
         else {
             System.out.println("The smallest number is: " + num3);
         }
+
     }
 }
