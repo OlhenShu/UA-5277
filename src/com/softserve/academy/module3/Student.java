@@ -1,5 +1,7 @@
 package com.softserve.academy.module3;
 
+import java.util.Objects;
+
 public class Student {
     private String name;
     private String lastName;
@@ -29,7 +31,7 @@ public class Student {
     /**
      * Prints the student information to the console.
      */
-    public  void printStudentInfo() {
+    public void printStudentInfo() {
         System.out.println("Student Info:" + "\n"
                 + "First Name: " + name + "\n"
                 + "Last Name: " + lastName + "\n"
@@ -47,6 +49,7 @@ public class Student {
 
     /**
      * Sets the age of the student. If the provided age is negative, it sets the age to 0 and prints a warning message.
+     *
      * @param age The age of the student.
      */
     public void setAge(int age) {
@@ -94,4 +97,16 @@ public class Student {
         return lastName + " " + name;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name) && Objects.equals(lastName, student.lastName) && Objects.equals(group, student.group);
+    }
+
+    public int hashCode() {
+        return Objects.hash(name, lastName, age, group);
+    }
 }
