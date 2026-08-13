@@ -10,9 +10,9 @@ public class PersonDemo {
 
         person1.input();
         person2.input();
-        person3.input();
+        /*person3.input();
         person4.input();
-        person5.input();
+        person5.input();*/
         person1.output();
         person1.changeName();
         person1.output();
