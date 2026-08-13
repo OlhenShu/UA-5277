@@ -63,7 +63,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student full information " +
+        return "Student full information: " +
                 "firstame='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", group='" + group + '\'';
