@@ -24,6 +24,6 @@ public class SumNumbers {
                 }
             }
             while (!answer.equalsIgnoreCase("y"));
-        }while (answer.equalsIgnoreCase("y"));
+        } while (answer.equalsIgnoreCase("y"));
     }
 }
