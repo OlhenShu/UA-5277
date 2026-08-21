@@ -1,4 +1,4 @@
-package com.softserve.academy.homework.Task1;
+package com.softserve.academy.homework.Topic1;
 
 import java.util.Scanner;
 
