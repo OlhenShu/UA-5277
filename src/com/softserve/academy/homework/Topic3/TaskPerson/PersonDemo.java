@@ -1,4 +1,4 @@
-package com.softserve.academy.homework.Topic2.TaskPerson;
+package com.softserve.academy.homework.Topic3.TaskPerson;
 
 public class PersonDemo {
     public static void main(String[] args) {
