@@ -30,4 +30,10 @@ public class Circle extends Shape {
                 '}';
     }
 
+    public void printCircleInfo() {
+        System.out.println("Circle radius: " + radius);
+        System.out.println("Circle area: " + getArea());
+        System.out.println("Circle perimeter: " + getPerimeter());
+    }
+
 }
