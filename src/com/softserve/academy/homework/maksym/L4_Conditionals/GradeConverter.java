@@ -1,4 +1,4 @@
-package com.softserve.academy.homework.maksym.L4;
+package com.softserve.academy.homework.maksym.L4_Conditionals;
 
 public class GradeConverter {
     public static String getLetterGrade(int score) {
