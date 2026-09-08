@@ -1,6 +1,7 @@
 package com.softserve.academy.module8;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class StudentDemo {
 
@@ -12,6 +13,21 @@ public class StudentDemo {
 
 
         Student[] students = {student1, student2, stud3, stud4};
+
+        Arrays.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student s1, Student s2) {
+                return Integer.compare(s1.age(), s2.age());
+            }
+        });
+
+        Arrays.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student s1, Student s2) {
+                return s1.firstName().compareTo(s2.firstName());
+            }
+        });
+
 
         Arrays.sort(students, (s2, s1) -> Integer.compare(s2.age(), s1.age()));
         for (Student student : students) {
